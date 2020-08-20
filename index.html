@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="./img/mini.png" type="image/png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <!-- Copyright © 2020 nesc.dev. All rights reserved. -->
+
+        <!-- Apache License Version 2.0 (https://github.com/nesclassdev/bestantiddosever) -->
+        <!-- Частичное и полное копирование разрешено при указании авторства. -->
+
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 px-lg-4 order-2 order-lg-1 text-center text-lg-left mt-5 mt-lg-0">
+                    <h2 class="title">Надёжная защита от DDoS атак</h2>
+                    <p class="description">
+                        Комлпексная защита от вредоносных L3-L7 атак любой сложности совершенно бесплатно на основе продвинутых решений от нашего технологического партнёра
+                        <br> <b>SRVGame's Mitigator 200Gbit/s</b>.
+                    </p>
+                    <div class="command">
+                        <span>iptables -A INPUT -j DROP</span>
+                        <a href="#"><i class="uil uil-copy"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-lg-3 order-1 order-lg-2 mb-5 mb-lg-0">
+                    <div class="card console">
+                        <div class="card-header">
+                            <i class="red"></i>
+                            <i class="yellow"></i>
+                            <i class="green"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="console-content"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script type="text/javascript">
+            const typed = new Typed('.console-content', {
+                strings: ['> $ iptables -A INPUT -j DROP^500 <br> <span class="text-success">Вы успешно защищены!</span>^1000 <br><br>> $ ping 127.0.0.1^100 <br>PING 127.0.0.1 (srvgame-antiddos) 32(64) bytes of data.^2000 <br>--- 127.0.0.1 ping statistics --- <br>5 packets transmitted, 0 received, 100% packet loss'],
+                
+                showCursor: false,
+
+                typeSpeed: 20,
+                backSpeed: 5,
+
+                startDelay: 400,
+                backDelay: 2000,
+
+                loop: true,
+                loopCount: Infinity
+            });
+        </script>
+    </body>
+</html>
